@@ -12,5 +12,5 @@ for dimension in 1D 2D; do
     "$fname" > /dev/null 2>&1
 done
 
-mv -f reformatted-data/real-train/*_1D.txt results/real/
-mv -f reformatted-data/real-train/*_2D.txt results/real/
+mv -f reformatted-data/*_1D.txt results/
+mv -f reformatted-data/*_2D.txt results/

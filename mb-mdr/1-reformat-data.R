@@ -7,7 +7,7 @@ library(data.table)
 
 data_dir <- here::here('data')
 filename <- list.files(data_dir, pattern = '*.txt')
-tail(colnames(mydat))
+
 mydat <- paste(data_dir, filename, sep = '/') %>%
   fread() %>%
   dplyr::select(phenotype, everything()) %>%
