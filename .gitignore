@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+multi-omics-ad.Rproj
+
+/data
+mb-mdr/reformatted-data
